@@ -8,6 +8,6 @@ const Header = styled.div`
 
 export default ({ siteTitle }) => (
   <Header>
-    <h1>hi</h1>
+    <h1>{siteTitle}</h1>
   </Header>
 )
