@@ -1,15 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Header extends Component {
+const Header = ({ className, siteTitle }) => (
+  <div className={className}>
+    <h1>{siteTitle}</h1>
+  </div>
+)
 
-  render() {
-
-    const { className, siteTitle } = this.props
-
-    return(
-      <Header className={className}>
-        <h1>{siteTitle}</h1>
-      </Header>
-    )
-  }
-}
+export default Header
