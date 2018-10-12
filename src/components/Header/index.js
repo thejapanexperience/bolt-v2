@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Header = ({ className, siteTitle }) => (
-  <div className={className}>
-    <h1>{siteTitle}</h1>
-  </div>
+const Header = ({ className, children }) => (
+  <header className={className}>
+    {children}
+  </header>
 )
 
 export default Header
