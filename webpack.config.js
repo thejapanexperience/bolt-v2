@@ -1,5 +1,5 @@
-var path = require('path')
-var nodeExternals = require('webpack-node-externals')
+var path = require('path');
+var nodeExternals = require('webpack-node-externals');
 
 module.exports = {
   entry: path.resolve(__dirname, './lib/index.js'),
@@ -32,7 +32,7 @@ module.exports = {
   },
   resolve: {
     alias: {
-      'tlob-theme-config': path.resolve(__dirname, '../tlob-theme/src/config'),
+      'bolt-bede-casino-v2-config': path.resolve(__dirname, '../bolt-bede-casino-v2/src/config'),
     },
   },
-}
+};
